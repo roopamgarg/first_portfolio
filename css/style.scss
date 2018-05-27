@@ -112,7 +112,7 @@ position: fixed;
 right: 4rem;
 top: 4rem;
 
-
+box-shadow: 0.5rem 0.8rem 1rem rgba($color-black,0.1);
     &__line{
         height: 2px;
 width: 2rem;
@@ -121,6 +121,7 @@ position: absolute;
 top:50%;
 left:50%;
 transform: translate(-50%,-50%);
+
 
         &::before{
             content:"";

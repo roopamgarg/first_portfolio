@@ -210,6 +210,7 @@ body {
 .navigation__checkbox:checked ~ .navigation__list li {
   background: linear-gradient(105deg, #f7f7f7 50%, #dc3545 50%);
   background-size: -200%;
+  background-repeat: no-repeat;
   font-size: 2rem;
   margin: 2rem;
   text-transform: uppercase;
